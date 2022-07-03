@@ -2,6 +2,9 @@
 Test practical devsecops, app codecademy with websocket & clean architecture
 - HOST : http://localhost:3030/web/playground
 
+## Pre Requisite
+- Go version 1.18.3
+
 ## How To Run
 
 Local environment
@@ -35,6 +38,7 @@ This project have some existing packages :
 4. Ws
 5. Cron
 6. Util
+7. Database (postgres, mysql)
 
 # Examples
 This project have some example for rest, ws, web :]
