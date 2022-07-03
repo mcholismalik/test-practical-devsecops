@@ -6,9 +6,10 @@ Test practical devsecops, app codecademy with websocket & clean architecture
 - Go version 1.18.3
 
 ## How To Run
-
-Local environment
 ``` bash
+# mod
+$ go mod tidy
+
 # run 
 $ ENV=DEV go run main.go
 
