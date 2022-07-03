@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	res "github.com/nakoding-community/goboil-clean/pkg/util/response"
+	res "github.com/nakoding-community/test-practical-devsecops/pkg/util/response"
 
 	"github.com/labstack/echo/v4"
 )

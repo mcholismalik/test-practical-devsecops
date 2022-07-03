@@ -3,16 +3,16 @@ package main
 import (
 	"os"
 
-	db "github.com/nakoding-community/goboil-clean/database"
-	"github.com/nakoding-community/goboil-clean/database/migration"
-	"github.com/nakoding-community/goboil-clean/database/seeder"
-	"github.com/nakoding-community/goboil-clean/internal/factory"
-	"github.com/nakoding-community/goboil-clean/internal/handler/web"
-	"github.com/nakoding-community/goboil-clean/internal/handler/ws"
-	"github.com/nakoding-community/goboil-clean/internal/middleware"
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
-	"github.com/nakoding-community/goboil-clean/pkg/cron"
-	"github.com/nakoding-community/goboil-clean/pkg/util/env"
+	db "github.com/nakoding-community/test-practical-devsecops/database"
+	"github.com/nakoding-community/test-practical-devsecops/database/migration"
+	"github.com/nakoding-community/test-practical-devsecops/database/seeder"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory"
+	"github.com/nakoding-community/test-practical-devsecops/internal/handler/web"
+	"github.com/nakoding-community/test-practical-devsecops/internal/handler/ws"
+	"github.com/nakoding-community/test-practical-devsecops/internal/middleware"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/cron"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/util/env"
 
 	"github.com/labstack/echo/v4"
 	"github.com/sirupsen/logrus"
@@ -26,9 +26,9 @@ func init() {
 	logrus.Info("Choosen environment " + ENV)
 }
 
-// @title goboil-clean
+// @title test-practical-devsecops
 // @version 0.0.1
-// @description This is a doc for goboil-clean.
+// @description This is a doc for test-practical-devsecops.
 
 // @securityDefinitions.apikey BearerAuth
 // @in header

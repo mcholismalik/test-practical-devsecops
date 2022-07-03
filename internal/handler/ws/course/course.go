@@ -4,9 +4,9 @@ import (
 	"log"
 
 	"github.com/gorilla/websocket"
-	"github.com/nakoding-community/goboil-clean/internal/abstraction"
-	"github.com/nakoding-community/goboil-clean/internal/factory"
-	xws "github.com/nakoding-community/goboil-clean/pkg/ws"
+	"github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory"
+	xws "github.com/nakoding-community/test-practical-devsecops/pkg/ws"
 	"github.com/sirupsen/logrus"
 
 	"github.com/labstack/echo/v4"

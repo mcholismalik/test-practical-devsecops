@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nakoding-community/goboil-clean/internal/abstraction"
-	"github.com/nakoding-community/goboil-clean/internal/model"
-	res "github.com/nakoding-community/goboil-clean/pkg/util/response"
+	"github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
+	"github.com/nakoding-community/test-practical-devsecops/internal/model"
+	res "github.com/nakoding-community/test-practical-devsecops/pkg/util/response"
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgconn"

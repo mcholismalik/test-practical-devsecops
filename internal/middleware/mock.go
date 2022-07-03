@@ -3,7 +3,7 @@ package middleware
 import (
 	"strconv"
 
-	"github.com/nakoding-community/goboil-clean/pkg/util/response"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/util/response"
 
 	"github.com/labstack/echo/v4"
 )

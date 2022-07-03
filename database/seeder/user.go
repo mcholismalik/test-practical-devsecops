@@ -3,7 +3,7 @@ package seeder
 import (
 	"log"
 
-	"github.com/nakoding-community/goboil-clean/internal/model"
+	"github.com/nakoding-community/test-practical-devsecops/internal/model"
 
 	"gorm.io/gorm"
 )

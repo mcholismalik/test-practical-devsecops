@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
 
 	"cloud.google.com/go/firestore"
 	firebase "firebase.google.com/go"

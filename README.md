@@ -1,38 +1,59 @@
-# goboil-clean
-Golang boilerplate with clean architecture
-- PORT : 3030
-- PATH : /
+# test-practical-devsecops
+Test practical devsecops, app codecademy with websocket & clean architecture
+- HOST : http://localhost:3030/web/playground
 
-## Installation
-
-``` bash
-# clone the repo
-$ git clone 
-
-# go into app's directory
-$ cd goboil-clean
-```
-
-## Build & Run
+## How To Run
 
 Local environment
 ``` bash
-# build 
-$ go build
-
 # run 
 $ ENV=DEV go run main.go
-$ ENV=DEV ./filego
+
+# open
+$ Open url http://localhost:3030/web/playground
 ```
 
-Docker environment
-``` bash
-# build 
-$ docker build -t goboil-clean-api:latest .
+## Architecture 
+This project built in clean architecture that contains :
+1. Factory   
+2. Middleware 
+3. Handler
+4. Binder
+5. Validation
+6. Usecase
+7. Repository
+8. Model
+9. Database
+9. Migration
+10. Seed
 
-# run
-$ docker compose -f deployments/docker-compose.yml up -d
-```
+# Packages
+This project have some existing packages :
+1. Elasticsearch   
+2. Firebase
+3. Sentry
+4. Ws
+5. Cron
+6. Util
+
+# Examples
+This project have some example for rest, ws, web :]
+
+1. Rest
+- Auth 
+  - Login
+  - Register
+- Sample
+  - Get (+ pagination, sort & filter)
+  - GetByID
+  - Create (+ transaction scope)
+  - Update (+ transaction scope)
+  - Delete
+2. Web
+- Playground
+- Bubble
+3. Ws
+- Course
 
 ## Documentation
 
@@ -54,31 +75,6 @@ Generate documentation
 $ swag init --propertyStrategy snakecase
 ```
 to see the results, run app and access {{url}}/swagger/index.html
-
-## Description 
-This project built in clean architecture that contains :
-1. Factory   
-2. Middleware 
-3. Handler
-4. Binder
-5. Validation
-6. Usecase
-7. Repository
-8. Model
-9. Database
-9. Migration
-10. Seed
-
-This project have some default endpoint :
-- Auth 
-  - Login
-  - Register
-- Sample
-  - Get (+ pagination, sort & filter)
-  - GetByID
-  - Create (+ transaction scope)
-  - Update (+ transaction scope)
-  - Delete
 
 # Author
 Muhammad Cholis Malik

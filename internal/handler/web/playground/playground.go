@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/google/uuid"
-	"github.com/nakoding-community/goboil-clean/internal/factory"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory"
 
 	"github.com/labstack/echo/v4"
 )

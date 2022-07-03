@@ -692,8 +692,8 @@ var SwaggerInfo = &swag.Spec{
 	Host:             "localhost:3030",
 	BasePath:         "/",
 	Schemes:          []string{},
-	Title:            "goboil-clean",
-	Description:      "This is a doc for goboil-clean.",
+	Title:            "test-practical-devsecops",
+	Description:      "This is a doc for test-practical-devsecops.",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
 }

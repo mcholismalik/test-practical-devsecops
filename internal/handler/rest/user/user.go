@@ -3,13 +3,13 @@ package user
 import (
 	"fmt"
 
-	"github.com/nakoding-community/goboil-clean/internal/abstraction"
-	"github.com/nakoding-community/goboil-clean/internal/dto"
-	"github.com/nakoding-community/goboil-clean/internal/factory"
-	"github.com/nakoding-community/goboil-clean/internal/middleware"
-	"github.com/nakoding-community/goboil-clean/internal/model"
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
-	res "github.com/nakoding-community/goboil-clean/pkg/util/response"
+	"github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
+	"github.com/nakoding-community/test-practical-devsecops/internal/dto"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory"
+	"github.com/nakoding-community/test-practical-devsecops/internal/middleware"
+	"github.com/nakoding-community/test-practical-devsecops/internal/model"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
+	res "github.com/nakoding-community/test-practical-devsecops/pkg/util/response"
 
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"

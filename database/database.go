@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
 
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"

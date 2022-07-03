@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/nakoding-community/goboil-clean/internal/abstraction"
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
-	res "github.com/nakoding-community/goboil-clean/pkg/util/response"
+	"github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
+	res "github.com/nakoding-community/test-practical-devsecops/pkg/util/response"
 
 	"github.com/golang-jwt/jwt"
 	"github.com/labstack/echo/v4"

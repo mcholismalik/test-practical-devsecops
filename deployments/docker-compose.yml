@@ -1,57 +1,57 @@
 version: "3.9"
 services:
   # postgres
-  # goboil-clean-postgres:
-  #   container_name: goboil-clean-postgres
+  # test-practical-devsecops-postgres:
+  #   container_name: test-practical-devsecops-postgres
   #   image: postgres:12-alpine 
   #   environment: 
   #     - POSTGRES_USER=goboil_clean_user
   #     - POSTGRES_PASSWORD=f72d8509-c70a-485a-a471-23f899b988ab
   #     - POSTGRES_DB=goboil_clean_db
   #   volumes: 
-  #     - goboil-clean-postgres:/var/lib/postgresql
+  #     - test-practical-devsecops-postgres:/var/lib/postgresql
   #   ports:
   #     - "5432:5432"
   #   networks:
-  #     - goboil-clean-net
+  #     - test-practical-devsecops-net
   
   # redis
-  # goboil-clean-redis:
+  # test-practical-devsecops-redis:
   #   image: "redis:alpine"
-  #   container_name: goboil-clean-redis
+  #   container_name: test-practical-devsecops-redis
   #   command: redis-server --requirepass 21541e54-d91c-4c4b-ab94-26fa5a46a654
   #   environment:
   #     - REDIS_REPLICATION_MODE=master
   #   volumes:
-  #     - goboil-clean-redis:/var/lib/redis
-  #     - goboil-clean-redis-conf:/usr/local/etc/redis/redis.conf
+  #     - test-practical-devsecops-redis:/var/lib/redis
+  #     - test-practical-devsecops-redis-conf:/usr/local/etc/redis/redis.conf
   #   ports:
   #     - "6379:6379"
   #   restart: always
   #   networks:
-  #     - goboil-clean-net
+  #     - test-practical-devsecops-net
 
   # api
-  # goboil-clean-api:
-  #   container_name: goboil-clean-api
-  #   image: goboil-clean-api:latest
+  # test-practical-devsecops-api:
+  #   container_name: test-practical-devsecops-api
+  #   image: test-practical-devsecops-api:latest
   #   ports:
   #     - "3030:3030"
   #   depends_on: 
-  #     - goboil-clean-postgres
-  #     - goboil-clean-redis
-  #     - goboil-clean-es-01
+  #     - test-practical-devsecops-postgres
+  #     - test-practical-devsecops-redis
+  #     - test-practical-devsecops-es-01
   #   networks:
-  #     - goboil-clean-net
+  #     - test-practical-devsecops-net
 
 volumes:
-  goboil-clean-postgres:
+  test-practical-devsecops-postgres:
     external: true
-  goboil-clean-redis:
+  test-practical-devsecops-redis:
     external: true
-  goboil-clean-redis-conf:
+  test-practical-devsecops-redis-conf:
     external: true
 
 networks:
-  goboil-clean-net:
-    name: goboil-clean-net
+  test-practical-devsecops-net:
+    name: test-practical-devsecops-net

@@ -1,9 +1,9 @@
 package factory
 
 import (
-	"github.com/nakoding-community/goboil-clean/internal/abstraction"
-	"github.com/nakoding-community/goboil-clean/internal/factory/repository"
-	"github.com/nakoding-community/goboil-clean/internal/factory/usecase"
+	"github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory/repository"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory/usecase"
 )
 
 type Factory struct {

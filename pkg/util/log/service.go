@@ -3,7 +3,7 @@ package log
 import (
 	"context"
 
-	"github.com/nakoding-community/goboil-clean/pkg/elasticsearch"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/elasticsearch"
 )
 
 const (

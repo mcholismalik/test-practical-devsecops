@@ -1,8 +1,8 @@
 package ws
 
 import (
-	"github.com/nakoding-community/goboil-clean/internal/factory"
-	"github.com/nakoding-community/goboil-clean/internal/handler/ws/course"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory"
+	"github.com/nakoding-community/test-practical-devsecops/internal/handler/ws/course"
 
 	"github.com/labstack/echo/v4"
 )

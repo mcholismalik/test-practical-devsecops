@@ -1,4 +1,4 @@
-module github.com/nakoding-community/goboil-clean
+module github.com/nakoding-community/test-practical-devsecops
 
 go 1.18
 

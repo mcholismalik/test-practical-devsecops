@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nakoding-community/goboil-clean/internal/abstraction"
+	"github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
 
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"

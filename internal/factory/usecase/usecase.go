@@ -1,9 +1,9 @@
 package usecase
 
 import (
-	"github.com/nakoding-community/goboil-clean/internal/factory/repository"
-	"github.com/nakoding-community/goboil-clean/internal/usecase/auth"
-	"github.com/nakoding-community/goboil-clean/internal/usecase/user"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory/repository"
+	"github.com/nakoding-community/test-practical-devsecops/internal/usecase/auth"
+	"github.com/nakoding-community/test-practical-devsecops/internal/usecase/user"
 )
 
 type Factory struct {

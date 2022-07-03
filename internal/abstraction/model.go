@@ -3,7 +3,7 @@ package abstraction
 import (
 	"time"
 
-	"github.com/nakoding-community/goboil-clean/pkg/util/date"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/util/date"
 
 	"github.com/google/uuid"
 

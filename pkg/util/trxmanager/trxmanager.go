@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nakoding-community/goboil-clean/internal/abstraction"
+	"github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
 
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"

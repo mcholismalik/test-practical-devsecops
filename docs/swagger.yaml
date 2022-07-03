@@ -166,8 +166,8 @@ definitions:
 host: localhost:3030
 info:
   contact: {}
-  description: This is a doc for goboil-clean.
-  title: goboil-clean
+  description: This is a doc for test-practical-devsecops.
+  title: test-practical-devsecops
   version: 0.0.1
 paths:
   /auth/login:

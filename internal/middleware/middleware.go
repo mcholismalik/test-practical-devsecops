@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
-	xtemplate "github.com/nakoding-community/goboil-clean/pkg/util/template"
-	"github.com/nakoding-community/goboil-clean/pkg/util/validator"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
+	xtemplate "github.com/nakoding-community/test-practical-devsecops/pkg/util/template"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/util/validator"
 
 	"github.com/labstack/echo/v4"
 	echoMiddleware "github.com/labstack/echo/v4/middleware"

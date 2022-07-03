@@ -3,10 +3,10 @@ package migration
 import (
 	"fmt"
 
-	"github.com/nakoding-community/goboil-clean/database"
-	"github.com/nakoding-community/goboil-clean/internal/model"
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
-	"github.com/nakoding-community/goboil-clean/pkg/util/env"
+	"github.com/nakoding-community/test-practical-devsecops/database"
+	"github.com/nakoding-community/test-practical-devsecops/internal/model"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/util/env"
 
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"

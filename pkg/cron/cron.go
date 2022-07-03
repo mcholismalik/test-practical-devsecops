@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
-	"github.com/nakoding-community/goboil-clean/pkg/util/env"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/util/env"
 
 	"github.com/go-co-op/gocron"
 )

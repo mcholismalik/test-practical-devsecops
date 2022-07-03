@@ -1,6 +1,6 @@
 package response
 
-import "github.com/nakoding-community/goboil-clean/internal/abstraction"
+import "github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
 
 type Meta struct {
 	Success bool                        `json:"success" default:"true"`

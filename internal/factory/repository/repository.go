@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"github.com/nakoding-community/goboil-clean/database"
-	"github.com/nakoding-community/goboil-clean/internal/repository"
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
+	"github.com/nakoding-community/test-practical-devsecops/database"
+	"github.com/nakoding-community/test-practical-devsecops/internal/repository"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
 	"gorm.io/gorm"
 )
 

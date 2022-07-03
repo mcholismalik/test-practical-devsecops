@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"os"
 
-	docs "github.com/nakoding-community/goboil-clean/docs"
-	"github.com/nakoding-community/goboil-clean/internal/factory"
-	"github.com/nakoding-community/goboil-clean/internal/handler/rest/auth"
-	"github.com/nakoding-community/goboil-clean/internal/handler/rest/user"
-	"github.com/nakoding-community/goboil-clean/pkg/constant"
+	docs "github.com/nakoding-community/test-practical-devsecops/docs"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory"
+	"github.com/nakoding-community/test-practical-devsecops/internal/handler/rest/auth"
+	"github.com/nakoding-community/test-practical-devsecops/internal/handler/rest/user"
+	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
 
 	"github.com/labstack/echo/v4"
 	echoSwagger "github.com/swaggo/echo-swagger"

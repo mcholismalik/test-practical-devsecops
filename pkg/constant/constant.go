@@ -3,7 +3,7 @@ package constant
 // General
 const (
 	APP                  = "APP"
-	APP_NAME             = "github.com/nakoding-community/goboil-clean"
+	APP_NAME             = "github.com/nakoding-community/test-practical-devsecops"
 	PORT                 = "PORT"
 	ENV                  = "ENV"
 	VERSION              = "VERSION"

@@ -3,8 +3,8 @@ package repository
 import (
 	"strings"
 
-	"github.com/nakoding-community/goboil-clean/internal/abstraction"
-	"github.com/nakoding-community/goboil-clean/internal/model"
+	"github.com/nakoding-community/test-practical-devsecops/internal/abstraction"
+	"github.com/nakoding-community/test-practical-devsecops/internal/model"
 
 	"github.com/google/uuid"
 	"gorm.io/gorm"

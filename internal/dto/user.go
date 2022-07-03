@@ -1,8 +1,8 @@
 package dto
 
 import (
-	"github.com/nakoding-community/goboil-clean/internal/model"
-	res "github.com/nakoding-community/goboil-clean/pkg/util/response"
+	"github.com/nakoding-community/test-practical-devsecops/internal/model"
+	res "github.com/nakoding-community/test-practical-devsecops/pkg/util/response"
 
 	"github.com/google/uuid"
 )

@@ -1,9 +1,9 @@
 package web
 
 import (
-	"github.com/nakoding-community/goboil-clean/internal/factory"
-	"github.com/nakoding-community/goboil-clean/internal/handler/web/bubble"
-	"github.com/nakoding-community/goboil-clean/internal/handler/web/playground"
+	"github.com/nakoding-community/test-practical-devsecops/internal/factory"
+	"github.com/nakoding-community/test-practical-devsecops/internal/handler/web/bubble"
+	"github.com/nakoding-community/test-practical-devsecops/internal/handler/web/playground"
 
 	"github.com/labstack/echo/v4"
 )
