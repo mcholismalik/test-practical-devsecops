@@ -45,20 +45,20 @@ This project have some existing packages :
 This project have some example for rest, ws, web :]
 
 1. Rest
-- Auth 
-  - Login
-  - Register
-- Sample
-  - Get (+ pagination, sort & filter)
-  - GetByID
-  - Create (+ transaction scope)
-  - Update (+ transaction scope)
-  - Delete
+  - Auth 
+    - Login
+    - Register
+  - Sample
+    - Get (+ pagination, sort & filter)
+    - GetByID
+    - Create (+ transaction scope)
+    - Update (+ transaction scope)
+    - Delete
 2. Web
-- Playground
-- Bubble
+  - Playground
+  - Bubble
 3. Ws
-- Course
+  - Course
 
 ## Documentation
 
