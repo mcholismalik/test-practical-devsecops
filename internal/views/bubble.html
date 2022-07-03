@@ -29,11 +29,14 @@
 
     // canvas
     bubbleShape = "circle"
+    function resetCanvas() {
+        document.getElementById("myCanvas").innerHTML = ""
+    }
 
     // eval
     function executeCode(code) {
+        resetCanvas()
         try {
-            eval(code)
             eval(code)
         } catch (e) {
             if (e instanceof SyntaxError) {
