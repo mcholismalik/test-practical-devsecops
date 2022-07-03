@@ -3,15 +3,11 @@ package main
 import (
 	"os"
 
-	db "github.com/nakoding-community/test-practical-devsecops/database"
-	"github.com/nakoding-community/test-practical-devsecops/database/migration"
-	"github.com/nakoding-community/test-practical-devsecops/database/seeder"
 	"github.com/nakoding-community/test-practical-devsecops/internal/factory"
 	"github.com/nakoding-community/test-practical-devsecops/internal/handler/web"
 	"github.com/nakoding-community/test-practical-devsecops/internal/handler/ws"
 	"github.com/nakoding-community/test-practical-devsecops/internal/middleware"
 	"github.com/nakoding-community/test-practical-devsecops/pkg/constant"
-	"github.com/nakoding-community/test-practical-devsecops/pkg/cron"
 	"github.com/nakoding-community/test-practical-devsecops/pkg/util/env"
 
 	"github.com/labstack/echo/v4"
@@ -40,14 +36,9 @@ func main() {
 	var PORT = os.Getenv(constant.PORT)
 
 	// dependency
-	db.Init()
-
-	// hook
-	migration.Init()
-	seeder.Init()
-
-	// lib
-	cron.Init()
+	// db.Init()
+	// migration.Init()
+	// seeder.Init()
 
 	e := echo.New()
 	middleware.Init(e)
