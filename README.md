@@ -17,7 +17,7 @@ $ ENV=DEV go run main.go
 $ Open url http://localhost:3030/web/playground
 ```
 
-## Architecture 
+## Boilerplate Architecture 
 ![Screenshot](assets/1.png)
 This boilerplate built in clean architecture that contains :
 1. Factory   
@@ -32,8 +32,12 @@ This boilerplate built in clean architecture that contains :
 9. Migration
 10. Seed
 
-Also for spesific tech test project have these architecture:
+## Project Architecture 
 ![Screenshot](assets/2.png)
+Also for spesific tech test project have these architecture:
+1. Web playground
+2. Web bubble
+3. Websocket course
 
 # Packages
 This project have some existing packages :
