@@ -18,8 +18,6 @@ $ Open url http://localhost:3030/web/playground
 ```
 
 ## Architecture 
-![Screenshot](assets/1.png)
-
 This project built in clean architecture that contains :
 1. Factory   
 2. Middleware 
