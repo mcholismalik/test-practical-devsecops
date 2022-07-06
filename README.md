@@ -19,7 +19,7 @@ $ Open url http://localhost:3030/web/playground
 
 ## Architecture 
 ![Screenshot](assets/1.png)
-This project built in clean architecture that contains :
+This boilerplate built in clean architecture that contains :
 1. Factory   
 2. Middleware 
 3. Handler
@@ -31,6 +31,9 @@ This project built in clean architecture that contains :
 9. Database
 9. Migration
 10. Seed
+
+Also for spesific tech test project have these architecture:
+![Screenshot](assets/2.png)
 
 # Packages
 This project have some existing packages :
