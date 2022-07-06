@@ -34,6 +34,7 @@ This boilerplate built in clean architecture that contains :
 
 ## Project Architecture 
 ![Screenshot](assets/2.png)
+
 Also for spesific tech test project have these architecture:
 1. Web playground
 2. Web bubble
